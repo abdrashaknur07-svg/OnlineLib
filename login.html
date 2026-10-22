@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кіру | OnlineLibrary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">📚 OnlineLibrary</div>
+    <nav>
+        <a href="index.html">Басты бет</a>
+        <a href="books.html">Кітаптар</a>
+        <a href="register.html">Тіркелу</a>
+    </nav>
+</header>
+
+<section class="features">
+
+    <h2>🔐 Жүйеге кіру</h2>
+
+    <div class="card"
+         style="max-width:450px;margin:auto;">
+
+        <form onsubmit="event.preventDefault(); alert('Кіру жүйесі келесі апталарда қосылады');">
+
+            <input type="email"
+                   placeholder="Email"
+                   required
+                   style="width:100%;padding:15px;margin-bottom:20px;border-radius:10px;">
+
+            <input type="password"
+                   placeholder="Құпиясөз"
+                   required
+                   style="width:100%;padding:15px;margin-bottom:20px;border-radius:10px;">
+
+            <button class="main-btn"
+                    type="submit"
+                    style="border:none;cursor:pointer;">
+                Кіру
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+</body>
+</html>
